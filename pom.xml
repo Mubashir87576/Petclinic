@@ -552,5 +552,16 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
+         
+         <distributionManagement>
+                 <repository>
+                     <id>nexus-releases</id>
+                     <url>http://3.86.246.26:8081/repository/maven-releases/</url>
+                 </repository>
+                 <snapshotRepository>
+                     <id>nexus-snapshots</id>
+                     <url>http://3.86.246.26:8081/repository/maven-snapshots/</url>
+                 </snapshotRepository>
+             </distributionManagement>
 
 </project>
