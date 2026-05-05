@@ -556,21 +556,17 @@
         </profile>
    </profiles>
 
-    <repositories>
+ <repositories>
         <repository>
             <id>repository.spring.milestone</id>
             <name>Spring Milestone Repository</name>
             <url>https://repo.spring.io/milestone</url>
         </repository>
-    </repositories>
-
-         <repositories>
-    <repository>
-        <id>nexus-releases</id>
-        <name>maven-releases</name>
-        <url>http://3.86.246.26:8081/repository/maven-releases/</url>
-    </repository>
-</repositories>
-
+        <repository>
+            <id>nexus-releases</id>
+            <name>maven-releases</name>
+            <url>http://3.86.246.26:8081/repository/maven-releases/</url>
+        </repository>
+ </repositories>
 
 </project>
